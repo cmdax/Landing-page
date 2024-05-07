@@ -29,7 +29,8 @@ a{
     color: white;
     display: flex;
     justify-content: space-around;
-    padding: 50px
+    padding: 50px;
+    margin: 0;
 }
 
 #left-main {
@@ -67,3 +68,44 @@ button {
     align-items: center;
     padding: 0 105px;
 }
+
+.section.two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.section.two .section-title{
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
+    margin: 50px;
+}
+
+.list-illustrations{
+    display: flex;
+}
+
+.element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 200px;
+}
+
+.element .illustration{
+    display: flex;
+    border:  2px solid #3882F6;
+    border-radius: 25px;
+    height: 150px;
+    width: 150px;;
+    justify-content: center;
+    align-items: center;
+}
+
+.element .descripiton{
+    width: 150px;
+}
+
