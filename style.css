@@ -59,7 +59,7 @@ a{
 button {
     background-color: #3882F6;
     color: white;
-    padding: 8px 16px;
+    padding: 8px 25px;
     border-radius: 8px;
     max-width: 100px;
     box-shadow: none;
@@ -135,4 +135,49 @@ button {
     align-self: flex-end;
     font-size: 20px;
     padding-top: 30px;
+}
+
+.section.four {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    padding: 40px 100px;
+    margin: 100px 0;
+    display: flex;
+    flex: 1;
+    max-width: 50%;
+}
+
+#left-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    flex: 2;
+}
+
+#right-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex: 1; */
+}
+
+#button-wrapper {
+    border: white solid 1px;
+}
+
+#wrapper-title {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+#wrapper-subtext {
+    font-size: 18px;
+    font-weight: lighter;
 }
